@@ -15,7 +15,7 @@
 <body>
 <style>
     .leaflet-popup-content-wrapper { width: 400px;}
-    .baltimore-text {font-size: 4em; position: absolute; color: #fff; text-align: center; z-index:100; margin: 0 auto; top: 0%; transform: translateY(50%); right: 20%; background: #ff0046;}
+    .baltimore-text {font-size: 4em; position: absolute; color: #fff; text-align: center; z-index:100; margin: 0 auto; top: 0%; transform: translateY(50%); right: 20%; background: #9d7e60;}
     .subtext {font-size: 20px; font-weight: lighter;}
 </style> 
 <div class="baltimore-text">WITH LOVE, BALTIMORE<br/>
@@ -38,7 +38,7 @@ var geojson = [
       },
       "properties": {
         "title": "Park Heights Community",
-        "marker-color": "#ff0046",
+        "marker-color": "#9d7e60",
         "marker-size": "medium",
         "marker-symbol": "building",
         video: '<iframe src="http://player.vimeo.com/video/71081731" width="380" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/71081731">Project005: Baltimore</a> from <a href="https://vimeo.com/ellenwildhagen">ellen wildhagen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
@@ -55,7 +55,7 @@ var geojson = [
       },
       "properties": {
         "title": "Walbrook Community",
-        "marker-color": "#ff0046",
+        "marker-color": "#9d7e60",
         "marker-size": "medium",
         "marker-symbol": "building",
         video: '<iframe src="http://player.vimeo.com/video/57571301" width="380" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/57571301">One City - Eight Artists - Seven Days: Baltimore</a> from <a href="https://vimeo.com/user15872989">XXIST</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
@@ -73,7 +73,7 @@ var geojson = [
       },
       "properties": {
         "title": "Broadway",
-        "marker-color": "#ff0046",
+        "marker-color": "#9d7e60",
         "marker-size": "medium",
         "marker-symbol": "building",
         video: '<iframe src="http://player.vimeo.com/video/67777137" width="380" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/67777137">Baltimore Vacants: A Documentary</a> from <a href="https://vimeo.com/tarekturkey">Tarek Turkey</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
@@ -92,7 +92,7 @@ var geojson = [
       },
       "properties": {
         "title": "Mondawmin",
-        "marker-color": "#ff0046",
+        "marker-color": "#9d7e60",
         "marker-size": "medium",
         "marker-symbol": "building",
         video: '<iframe src="http://player.vimeo.com/video/67777137" width="380" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/67777137">Baltimore Vacants: A Documentary</a> from <a href="https://vimeo.com/tarekturkey">Tarek Turkey</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
@@ -111,7 +111,7 @@ var geojson = [
       },
       "properties": {
         "title": "Lexington Market",
-        "marker-color": "#ff0046",
+        "marker-color": "#9d7e60",
         "marker-size": "medium",
         "marker-symbol": "building",
         video: '<iframe src="http://player.vimeo.com/video/67777137" width="380" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/67777137">Baltimore Vacants: A Documentary</a> from <a href="https://vimeo.com/tarekturkey">Tarek Turkey</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
@@ -123,7 +123,7 @@ var geojson = [
 }
 
 ];
-var map = L.mapbox.map('map-one', 'mapbox.streets').setView([39.318587,-76.620022], 14);
+var map = L.mapbox.map('map-one', 'theivyproject.f65941bf').setView([39.318587,-76.620022], 14);
 var myLayer = L.mapbox.featureLayer().addTo(map);
 // Add the iframe in a marker tooltip using the custom feature properties
 myLayer.on('layeradd', function(e) {
