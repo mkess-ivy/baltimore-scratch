@@ -1,0 +1,5 @@
+body { margin:0; padding:0; }
+.map { position:absolute; top:0; bottom:0; width:100%; }
+.leaflet-popup-content-wrapper { width: 400px;}
+.baltimore-text {font-size: 4em; position: absolute; color: #fff; text-align: center; z-index:100; margin: 0 auto; top: 0%; transform: translateY(50%); right: 20%; background: #ff0046;}
+.subtext {font-size: 20px; font-weight: lighter;}
